@@ -5,10 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="79395abf-8f2f-49f8-a68b-c9935683edef" name="Changes" comment="Коммит_1">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Constants.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/AncestorTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pageobject/Constructor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pageobject/RegistrationAndLogin.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,9 +27,9 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 7
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
   <component name="ProjectId" id="2foyTES1NLmDYr1t8XLPTAwWlNl" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -46,7 +45,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/Idea/Sprint_4"
+    "last_opened_file_path": "D:/Idea/Diplom/Diplom_3"
   }
 }]]></component>
   <component name="SharedIndexes">
@@ -65,9 +64,20 @@
       <option name="presentableId" value="Default" />
       <updated>1714481733161</updated>
     </task>
+    <task id="LOCAL-00001" summary="Коммит_1">
+      <option name="closed" value="true" />
+      <created>1714483530512</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1714483530513</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="Коммит_1" />
+    <option name="LAST_COMMIT_MESSAGE" value="Коммит_1" />
   </component>
 </project>
