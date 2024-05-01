@@ -6,7 +6,7 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 
 public class AncestorTest {
 
-    WebDriver driver=getWebDriver(true);//true для FirefoxDriver
+    WebDriver driver=getWebDriver(false);//true для FirefoxDriver
 
     public static WebDriver getWebDriver(boolean useFirefox) {
         if (useFirefox) {
