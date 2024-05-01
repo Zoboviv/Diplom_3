@@ -17,13 +17,15 @@ public class Locators {
     //локатор окна "Восстановление пароля"
     final By window = By.xpath("//h2[text()='Восстановление пароля']");
     //локатор "Email"
-    final By emailField = By.xpath("//label[text()='Email']");
+    final By emailField = By.xpath("//label[text()='Email']/following-sibling::*");
     //локатор "Пароль"
-    final By passwordField = By.xpath("//label[text()='Пароль']");
+    final By passwordField = By.xpath("//label[text()='Пароль']/following-sibling::*");
     //локатор "Имя"
-    final By nameField = By.xpath("//div[@class='input__container']//label[text()='Имя']");
+    final By nameField = By.xpath("//label[text()='Имя']/following-sibling::*");
+    //локатор псевдоссылки "Зарегистрироваться"
+    final By buttonLinkRegister = By.xpath("//a[text()='Зарегистрироваться']");
     //локатор кнопка "Зарегистрироваться"
-    final By buttonRegister = By.xpath("//a[text()='Зарегистрироваться']");
+    final By buttonRegister = By.xpath("//button[text()='Зарегистрироваться']");
     //локатор кнопка "Восстановить пароль"
     final By buttonRestorePassword = By.xpath("//a[text()='Восстановить пароль']");
     //локатор ошибки "Некорректный пароль"
