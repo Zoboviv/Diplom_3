@@ -4,16 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="79395abf-8f2f-49f8-a68b-c9935683edef" name="Changes" comment="Коммит_1">
-      <change afterPath="$PROJECT_DIR$/src/main/java/client/Credentials.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/client/StellarBurgersClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/client/StellarBurgersClientImple.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/client/User.java" afterDir="false" />
+    <list default="true" id="79395abf-8f2f-49f8-a68b-c9935683edef" name="Changes" comment="Коммит_3">
+      <change afterPath="$PROJECT_DIR$/src/test/java/LoginTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pageobject/Constructor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pageobject/Constructor.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/pageobject/Locators.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pageobject/Locators.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pageobject/Registration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pageobject/Registration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pageobject/Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pageobject/Login.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/AncestorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/AncestorTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/RegistrationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/RegistrationTest.java" afterDir="false" />
     </list>
@@ -50,6 +45,9 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ASKED_ADD_EXTERNAL_FILES": "true",
+    "JUnit.LoginTest.executor": "Run",
+    "JUnit.LoginTest.test1.executor": "Run",
+    "JUnit.LoginTest.test3.executor": "Run",
     "JUnit.RegistrationTest.executor": "Run",
     "JUnit.RegistrationTest.test.executor": "Run",
     "JUnit.RegistrationTest.test2.executor": "Run",
@@ -63,42 +61,41 @@
     "last_opened_file_path": "D:/Idea/Diplom/Diplom_3"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.RegistrationTest.testInvalidPassword">
-    <configuration name="RegistrationTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.RegistrationTest">
+    <configuration name="LoginTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Diplom_3" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="RegistrationTest" />
+      <option name="MAIN_CLASS_NAME" value="LoginTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RegistrationTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="LoginTest.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Diplom_3" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="RegistrationTest" />
-      <option name="METHOD_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="LoginTest" />
+      <option name="METHOD_NAME" value="test1" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RegistrationTest.test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="LoginTest.test3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Diplom_3" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="RegistrationTest" />
-      <option name="METHOD_NAME" value="test2" />
+      <option name="MAIN_CLASS_NAME" value="LoginTest" />
+      <option name="METHOD_NAME" value="test3" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RegistrationTest.testButtonOrderDown" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="RegistrationTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Diplom_3" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="RegistrationTest" />
-      <option name="METHOD_NAME" value="testButtonOrderDown" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -115,11 +112,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.RegistrationTest.testInvalidPassword" />
         <item itemvalue="JUnit.RegistrationTest" />
-        <item itemvalue="JUnit.RegistrationTest.test2" />
-        <item itemvalue="JUnit.RegistrationTest.test" />
-        <item itemvalue="JUnit.RegistrationTest.testButtonOrderDown" />
+        <item itemvalue="JUnit.LoginTest" />
+        <item itemvalue="JUnit.LoginTest.test1" />
+        <item itemvalue="JUnit.LoginTest.test3" />
+        <item itemvalue="JUnit.RegistrationTest.testInvalidPassword" />
       </list>
     </recent_temporary>
   </component>
@@ -147,12 +144,21 @@
       <option name="project" value="LOCAL" />
       <updated>1714483530513</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Коммит_3">
+      <option name="closed" value="true" />
+      <created>1714594437024</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1714594437025</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Коммит_1" />
-    <option name="LAST_COMMIT_MESSAGE" value="Коммит_1" />
+    <MESSAGE value="Коммит_3" />
+    <option name="LAST_COMMIT_MESSAGE" value="Коммит_3" />
   </component>
 </project>
