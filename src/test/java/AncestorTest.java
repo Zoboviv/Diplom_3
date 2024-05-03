@@ -6,14 +6,15 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 
 public class AncestorTest {
 
-    WebDriver driver=getWebDriver(false);//true для FirefoxDriver
+    WebDriver driver = getWebDriver(true);//true для Yandex
 
-    public static WebDriver getWebDriver(boolean useFirefox) {
-        if (useFirefox) {
-            return new FirefoxDriver();
+    public static ChromeDriver getWebDriver(boolean useYandex) {
+        if (useYandex) {
+            System.setProperty("webdriver.chrome.driver","D:\\WebDriver\\yandexdriver\\yandexdriver.exe");
         } else {
-            return new ChromeDriver();
+            System.setProperty("webdriver.chrome.driver","D:\\WebDriver\\chromedriver\\chromedriver.exe");
         }
+        return new ChromeDriver();
     }
 
     @Before
