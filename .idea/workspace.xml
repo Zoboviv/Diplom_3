@@ -4,13 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="79395abf-8f2f-49f8-a68b-c9935683edef" name="Changes" comment="Коммит_3">
-      <change afterPath="$PROJECT_DIR$/src/test/java/LoginTest.java" afterDir="false" />
+    <list default="true" id="79395abf-8f2f-49f8-a68b-c9935683edef" name="Changes" comment="Коммит_4">
+      <change afterPath="$PROJECT_DIR$/src/test/java/TransitionsTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pageobject/Constructor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pageobject/Transitions.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/pageobject/Locators.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pageobject/Locators.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/pageobject/Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pageobject/Login.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/AncestorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/AncestorTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/RegistrationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/RegistrationTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/LoginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/LoginTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,6 +27,20 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "Zoboviv"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="bc6708ee-942f-412e-8d81-a4656457ce7a" />
+        <option name="url" value="https://github.com/Zoboviv/Diplom_3.git" />
+      </UrlAndAccount>
+    </option>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -53,6 +67,10 @@
     "JUnit.RegistrationTest.test2.executor": "Run",
     "JUnit.RegistrationTest.testButtonOrderDown.executor": "Run",
     "JUnit.RegistrationTest.testInvalidPassword.executor": "Run",
+    "JUnit.TransitionsTest.check.executor": "Run",
+    "JUnit.TransitionsTest.executor": "Run",
+    "JUnit.TransitionsTest.transitionFromPersonalAccountToTheConstructorClickConstructor.executor": "Run",
+    "JUnit.TransitionsTest.transitionFromPersonalAccountToTheDesigner.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
@@ -71,26 +89,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LoginTest.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Diplom_3" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="LoginTest" />
-      <option name="METHOD_NAME" value="test1" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LoginTest.test3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Diplom_3" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="LoginTest" />
-      <option name="METHOD_NAME" value="test3" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="RegistrationTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Diplom_3" />
       <option name="PACKAGE_NAME" value="" />
@@ -100,11 +98,30 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RegistrationTest.testInvalidPassword" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TransitionsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Diplom_3" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="RegistrationTest" />
-      <option name="METHOD_NAME" value="testInvalidPassword" />
+      <option name="MAIN_CLASS_NAME" value="TransitionsTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TransitionsTest.check" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Diplom_3" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TransitionsTest" />
+      <option name="METHOD_NAME" value="check" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TransitionsTest.transitionFromPersonalAccountToTheConstructorClickConstructor" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Diplom_3" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TransitionsTest" />
+      <option name="METHOD_NAME" value="transitionFromPersonalAccountToTheConstructorClickConstructor" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -114,9 +131,9 @@
       <list>
         <item itemvalue="JUnit.RegistrationTest" />
         <item itemvalue="JUnit.LoginTest" />
-        <item itemvalue="JUnit.LoginTest.test1" />
-        <item itemvalue="JUnit.LoginTest.test3" />
-        <item itemvalue="JUnit.RegistrationTest.testInvalidPassword" />
+        <item itemvalue="JUnit.TransitionsTest" />
+        <item itemvalue="JUnit.TransitionsTest.check" />
+        <item itemvalue="JUnit.TransitionsTest.transitionFromPersonalAccountToTheConstructorClickConstructor" />
       </list>
     </recent_temporary>
   </component>
@@ -152,13 +169,22 @@
       <option name="project" value="LOCAL" />
       <updated>1714594437025</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Коммит_4">
+      <option name="closed" value="true" />
+      <created>1714678433236</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1714678433236</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Коммит_1" />
     <MESSAGE value="Коммит_3" />
-    <option name="LAST_COMMIT_MESSAGE" value="Коммит_3" />
+    <MESSAGE value="Коммит_4" />
+    <option name="LAST_COMMIT_MESSAGE" value="Коммит_4" />
   </component>
 </project>

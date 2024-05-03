@@ -31,15 +31,22 @@ public class LoginTest extends AncestorTest{
         response.assertThat().statusCode(200).and().body("success", equalTo(true));
         accessToken=response.extract().jsonPath().getString("accessToken").substring(7);
     }
-    @Step("Проверка - вход выполнен под созданным пользователем")
+    @Step("Переход в личный кабинет. Проверка - вход выполнен под созданным пользователем")
     public void checkLoginUsingTheCreatedUser() {
         login.clickButtonLogin();
         login.clickPersonalArea();
         assertEquals("puskin@yandex.ru", login.getLogin());
+        assertEquals("Puskin", login.getName());
+    }
+    @Step("Выход по кнопке «Выйти» в личном кабинете")
+    public void logout() {
+        login.clickButtonLogout();
+        login.checkWindowLogin();
     }
 
+
     @Test
-    @Description("вход по кнопке «Войти в аккаунт» на главной")
+    @Description("Вход по кнопке «Войти в аккаунт» на главной")
     public void test1(){
         createUser();
         login.clickLoginToAccount();
@@ -47,11 +54,11 @@ public class LoginTest extends AncestorTest{
         login.setEmail("puskin@yandex.ru");
         login.setPassword("123456");
         checkLoginUsingTheCreatedUser();
-
+        logout();
     }
 
     @Test
-    @Description("вход через кнопку «Личный кабинет»")
+    @Description("Вход через кнопку «Личный кабинет»")
     public void test2(){
         createUser();
         Login login =new Login(driver);
@@ -60,10 +67,11 @@ public class LoginTest extends AncestorTest{
         login.setEmail("puskin@yandex.ru");
         login.setPassword("123456");
         checkLoginUsingTheCreatedUser();
+        logout();
     }
 
     @Test
-    @Description("вход через кнопку в форме регистрации")
+    @Description("Вход через кнопку в форме регистрации")
     public void test3(){
         createUser();
         Login login =new Login(driver);
@@ -74,10 +82,11 @@ public class LoginTest extends AncestorTest{
         login.setEmail("puskin@yandex.ru");
         login.setPassword("123456");
         checkLoginUsingTheCreatedUser();
+        logout();
     }
 
     @Test
-    @Description("вход через кнопку в форме восстановления пароля")
+    @Description("Вход через кнопку в форме восстановления пароля")
     public void test4(){
         createUser();
         Login login =new Login(driver);
@@ -88,7 +97,7 @@ public class LoginTest extends AncestorTest{
         login.setEmail("puskin@yandex.ru");
         login.setPassword("123456");
         checkLoginUsingTheCreatedUser();
-
+        logout();
     }
 
 }

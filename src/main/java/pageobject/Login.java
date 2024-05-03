@@ -96,4 +96,16 @@ public class Login extends Locators{
         return inputElement.getAttribute("value");
     }
 
+    @Step("Получить значение поля Имя")
+    public String getName() {
+        new WebDriverWait(driver, 3)
+                .until(ExpectedConditions.visibilityOfElementLocated(nameField));
+        WebElement inputElement  = driver.findElement(nameField);
+        return inputElement.getAttribute("value");
+    }
+
+    @Step("Нажатие кнопки 'Выйти'")
+    public void clickButtonLogout() {
+        driver.findElement(buttonLogout).click();
+    }
 }
