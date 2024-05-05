@@ -4,11 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="79395abf-8f2f-49f8-a68b-c9935683edef" name="Changes" comment="Коммит_5">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="79395abf-8f2f-49f8-a68b-c9935683edef" name="Changes" comment="Коммит_7">
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/AncestorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/AncestorTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/TransitionsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TransitionsTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,7 +73,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/Idea/Diplom/Diplom_3"
+    "last_opened_file_path": "D:/Idea/Sprint_7"
   }
 }]]></component>
   <component name="RunManager" selected="JUnit.LoginTest">
@@ -99,12 +96,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RegistrationTest.testSuccessfulRegistration" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="RegistrationTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Diplom_3" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="RegistrationTest" />
-      <option name="METHOD_NAME" value="testSuccessfulRegistration" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -131,10 +127,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.LoginTest" />
+        <item itemvalue="JUnit.RegistrationTest" />
         <item itemvalue="JUnit.TransitionsTest" />
         <item itemvalue="JUnit.TransitionsTest.clickSectionBuns" />
         <item itemvalue="JUnit.LoginTest.test1" />
-        <item itemvalue="JUnit.RegistrationTest.testSuccessfulRegistration" />
       </list>
     </recent_temporary>
   </component>
@@ -186,7 +182,15 @@
       <option name="project" value="LOCAL" />
       <updated>1714754358592</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Коммит_7">
+      <option name="closed" value="true" />
+      <created>1714941856442</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1714941856442</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -195,7 +199,8 @@
     <MESSAGE value="Коммит_3" />
     <MESSAGE value="Коммит_4" />
     <MESSAGE value="Коммит_5" />
-    <option name="LAST_COMMIT_MESSAGE" value="Коммит_5" />
+    <MESSAGE value="Коммит_7" />
+    <option name="LAST_COMMIT_MESSAGE" value="Коммит_7" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
