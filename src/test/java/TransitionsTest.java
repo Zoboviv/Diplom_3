@@ -49,24 +49,22 @@ public class TransitionsTest extends AncestorTest{
         transitions.clickPersonalArea();
     }
 
-    @Step("Проверка - раздел по умолчанию 'Булки'")
+    @Test
+    @Description("Проверка - раздел по умолчанию 'Булки'")
     public void checkDefaultSectionBuns() {
         transitions.checkSectionBunsCurrent();
     }
 
-    @Step("Проверка - переход в раздел 'Булки'")
-    public void clickSectionBuns() {
-        transitions.clickSectionBuns();
-        transitions.checkSectionBunsCurrent();
-    }
-
-    @Step("Проверка - переход в раздел 'Соусы'")
+    @Test
+    @Description("Проверка - переход в раздел 'Соусы'")
     public void clickSectionSauces() {
+        checkDefaultSectionBuns();
         transitions.clickSectionSauces();
         transitions.checkSectionSaucesCurrent();
     }
 
-    @Step("Проверка - переход в раздел 'Начинки'")
+    @Test
+    @Description("Проверка - переход в раздел 'Начинки'")
     public void clickSectionFillings() {
         transitions.clickSectionFillings();
         transitions.checkSectionFillingsCurrent();
@@ -87,15 +85,6 @@ public class TransitionsTest extends AncestorTest{
         clickPersonalArea();
         transitions.clickButtonLogo();
         transitions.checkWindowAssembleTheBurger();
-    }
-
-    @Test
-    @Description("Проверка переходов к разделам 'Булки', 'Соусы', 'Начинки'")
-    public void check(){
-        checkDefaultSectionBuns();
-        clickSectionSauces();
-        clickSectionFillings();
-        clickSectionBuns();
     }
 
 }

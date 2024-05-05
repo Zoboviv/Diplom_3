@@ -6,7 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="79395abf-8f2f-49f8-a68b-c9935683edef" name="Changes" comment="Коммит_5">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/AncestorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/AncestorTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TransitionsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TransitionsTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,12 +26,12 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "Zoboviv"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Zoboviv&quot;
   }
-}]]></component>
+}</component>
   <component name="GithubPullRequestsUISettings">
     <option name="selectedUrlAndAccountId">
       <UrlAndAccount>
@@ -65,6 +67,7 @@
     "JUnit.RegistrationTest.testInvalidPassword.executor": "Run",
     "JUnit.RegistrationTest.testSuccessfulRegistration.executor": "Debug",
     "JUnit.TransitionsTest.check.executor": "Run",
+    "JUnit.TransitionsTest.clickSectionBuns.executor": "Run",
     "JUnit.TransitionsTest.executor": "Run",
     "JUnit.TransitionsTest.transitionFromPersonalAccountToTheConstructorClickConstructor.executor": "Run",
     "JUnit.TransitionsTest.transitionFromPersonalAccountToTheDesigner.executor": "Run",
@@ -76,7 +79,7 @@
     "last_opened_file_path": "D:/Idea/Diplom/Diplom_3"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.LoginTest.test1">
+  <component name="RunManager" selected="JUnit.LoginTest">
     <configuration name="LoginTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Diplom_3" />
       <option name="PACKAGE_NAME" value="" />
@@ -96,25 +99,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RegistrationTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Diplom_3" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="RegistrationTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="RegistrationTest.testInvalidPassword" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Diplom_3" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="RegistrationTest" />
-      <option name="METHOD_NAME" value="testInvalidPassword" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="RegistrationTest.testSuccessfulRegistration" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Diplom_3" />
       <option name="PACKAGE_NAME" value="" />
@@ -125,13 +109,32 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TransitionsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Diplom_3" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TransitionsTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TransitionsTest.clickSectionBuns" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Diplom_3" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TransitionsTest" />
+      <option name="METHOD_NAME" value="clickSectionBuns" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.LoginTest.test1" />
         <item itemvalue="JUnit.LoginTest" />
+        <item itemvalue="JUnit.TransitionsTest" />
+        <item itemvalue="JUnit.TransitionsTest.clickSectionBuns" />
+        <item itemvalue="JUnit.LoginTest.test1" />
         <item itemvalue="JUnit.RegistrationTest.testSuccessfulRegistration" />
-        <item itemvalue="JUnit.RegistrationTest.testInvalidPassword" />
-        <item itemvalue="JUnit.RegistrationTest" />
       </list>
     </recent_temporary>
   </component>
