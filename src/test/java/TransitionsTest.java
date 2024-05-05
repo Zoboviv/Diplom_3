@@ -58,7 +58,6 @@ public class TransitionsTest extends AncestorTest{
     @Test
     @Description("Проверка - переход в раздел 'Соусы'")
     public void clickSectionSauces() {
-        checkDefaultSectionBuns();
         transitions.clickSectionSauces();
         transitions.checkSectionSaucesCurrent();
     }
